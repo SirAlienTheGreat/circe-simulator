@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 gtk4= {version="0.4.6",package="gtk4"}
+webbrowser = "0.5.5"

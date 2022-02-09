@@ -9,13 +9,13 @@
 </ol>
 
 <h1> Linux build instructions </h1>
-
+<p> If you don't know what this is, don't do this</p>
 <ol>
   <li>Most distros come with gtk4 preinstalled, if yours doesn't, use <samp>sudo pacman -S gtk4</samp> or <samp>sudo apt install libgtk-4-dev</samp> (Probably, I don't use debian)</li>
   <li>Install rust with <samp>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</samp> or use your distro's package manager</li>
   <li>Clone this repository with <samp>git clone https://github.com/SirAlienTheGreat/circe-simulator</samp>, then <samp>cd</samp> into this directory</li>
   <li>Build with <samp>cargo build --release</samp></li>
-  <li>Copy the .png files into <samp>target/release</samp></li>
+  <li>Copy the image files into <samp>target/release</samp></li>
   <li>You may need to <samp>chmod +x circe-simulator</samp>, or it may have permission to run with <samp>./circe-simulator</samp> by default</li>
 </ol>
 
@@ -30,7 +30,7 @@
   <li>Clone this repository with <samp>git clone https://github.com/SirAlienTheGreat/circe-simulator</samp>, then <samp>cd</samp> into this directory</li>
   <li>Build with <samp>cargo build --release</samp></li>
   <li>Pray to your favorite god, because this never works for me, and this sometimes seems to fix itself randomly</li>
-  <li>Copy the .png files into <samp>target/release</samp></li>
+  <li>Copy the image files into <samp>target/release</samp></li>
   <li><samp>cd</samp> into <samp>target/release</samp> and add the .dlls with <samp>ldd circe-simulator.exe | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp "{}" .</samp> (the period is part of the command)</li>
   <li>You can open file explorer and go to your MSYS2 installation folder (By default, C:msys2)<samp>/home/[USERNAME]/circe-simulator-main/target/release</samp> and run circe-simulator.exe</li>
 </ol>

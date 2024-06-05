@@ -1,6 +1,6 @@
 # circe-simulator
 <h1>Run instructions</h1>
-
+<h1>This was a class project from 2022 that is not useful to anyone and archived for that reason</h1>
 <ol>
   <li>Download the release from your platform on the releases page on the right side of this page</li>
   <li>Open the circe-simulator-*****.zip file and copy the contents to an empty folder somewhere</li>
